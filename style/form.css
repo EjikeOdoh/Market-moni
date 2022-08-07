@@ -1,0 +1,26 @@
+* {
+    text-decoration: none;
+}
+ a {
+    text-decoration: none;
+    display: flex;
+    gap: 2rem;
+    color: #17780d;
+    margin: 2rem;
+ }
+
+.container {
+    width: 60%;
+    background: white;
+    padding: 5%;
+}
+
+.container button {
+    width: 100%;
+    background-color: #17780d;
+    border: 2px solid #17780d;
+}
+
+h1 {
+    color: #17780d;
+}
