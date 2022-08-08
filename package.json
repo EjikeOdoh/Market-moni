@@ -6,5 +6,8 @@
   "repository": "git@github.com:EjikeOdoh/Market-moni.git",
   "author": "eNaira team88",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "serve": "node serve.js"
+  }
 }
