@@ -2,6 +2,7 @@ const key = "e76eab907b16b1abb091559851cb5f82"
 
 const API = "https://rgw.k8s.apis.ng/centric-platforms/uat"
 
+const createConsumerForm = document.querySelector("#newUserForm")
 const loanElegibilityForm = document.getElementById("eligibility-form")
 const loanEligibilityResult = document.getElementById("eligibility-result")
 
@@ -45,7 +46,7 @@ async function postFormDataAsJson({ endpoint, formData }) {
  *
  * @param {SubmitEvent} event
  */
-async function handleFormSubmit(event) {
+async function handleCreateConsumer(event) {
   event.preventDefault()
 
   const form = event.currentTarget
@@ -60,6 +61,10 @@ async function handleFormSubmit(event) {
     console.error(error)
   }
 }
+
+function handleEligibility(event) {}
+
+function handleLoanRequest(event) {}
 
 // const exampleForm = document.getElementById("example-form")
 // exampleForm.addEventListener("submit", handleFormSubmit)
