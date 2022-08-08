@@ -1,0 +1,31 @@
+Arguments: 
+  /home/johnbendi/.asdf/installs/nodejs/16.13.2/bin/node /home/johnbendi/.asdf/installs/yarn/1.22.18/bin/yarn.js init .
+
+PATH: 
+  /home/johnbendi/.asdf/plugins/nodejs/shims:/home/johnbendi/.asdf/installs/nodejs/16.13.2/.npm/bin:/home/johnbendi/.asdf/installs/nodejs/16.13.2/bin:/home/johnbendi/.asdf/installs/yarn/1.22.18/bin:/home/johnbendi/.asdf/shims:/home/johnbendi/.asdf/bin:/home/johnbendi/.pyenv/bin:/opt/google/chromium/tools/depot_tools:/usr/local/texlive/current/bin/x86_64-linux:/home/johnbendi/.bun/bin:/usr/local/julia-1.7.3/bin:/usr/local/istio-1.13.2/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/opt/graalvm/current/bin:/home/johnbendi/go/bin:/home/johnbendi/.opam/__coq-platform.2021.09.0~8.13/bin:/opt/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/johnbendi/bin:/home/johnbendi/.local/bin:/usr/share/maven/bin:/usr/share/ant/bin:/home/johnbendi/.sdkman/candidates/gradle/current/bin:/opt/android/studio/bin:/opt/android/sdk/tools:/opt/android/sdk/tools/bin:/opt/android/sdk/platform-tools:/usr/lib/postgresql/9.5/bin:/opt/google/depot_tools:/home/johnbendi/.yarn/bin:/snap/bin:/home/johnbendi/.cargo/bin:/home/johnbendi/.cabal/bin:/home/johnbendi/.ghcup/bin:/home/johnbendi/.deno/bin:/home/johnbendi/.opam/default/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.13.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/johnbendi/projects/enaira/Market-moni/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /home/johnbendi/.asdf/installs/yarn/1.22.18/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/johnbendi/.asdf/installs/yarn/1.22.18/lib/cli.js:310:30)
+      at /home/johnbendi/.asdf/installs/yarn/1.22.18/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
