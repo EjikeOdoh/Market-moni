@@ -1,11 +1,11 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New User</title>
+    <title>Existing Consumer</title>
 
+    <link rel="stylesheet" href="style/styles.css" />
     <!-- bootstrap -->
     <!-- CSS only -->
     <link
@@ -17,28 +17,47 @@
 
     <link rel="stylesheet" href="style/form.css" />
 
-    <!-- icons -->
+    <!-- ICONS -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
   </head>
   <body>
+    <nav>
+      <img src="images/eNaira-logo.png" alt="logo" />
+      <div>
+        <a href="">Home</a>
+        <a href="">Branch Locator</a>
+        <a href="">Live Chat</a>
+      </div>
+    </nav>
+
     <div class="container">
-      <a href="existing-user-form.html"
+      <a href="index.html"
         ><span class="material-symbols-outlined"> arrow_back </span> Back
       </a>
 
-      <h1>Request For Loan</h1>
-      <p>Kindly fill in your details to get started</p>
-      <form action="/RequestLoan" name="newUserForm">
+      <h1>Existing User Details</h1>
+
+      <form name="newUserForm">
         <div class="mb-3">
-          <label for="request_id" class="form-label">Request ID</label>
-          <input type="text" class="form-control" id="request_id" />
+          <label for="account_id" class="form-label">Account ID</label>
+          <input
+            type="text"
+            class="form-control"
+            id="account_id"
+            value="3725481725182754712"
+          />
         </div>
         <div class="mb-3">
           <label for="phone_number" class="form-label">Phone Number</label>
-          <input type="text" class="form-control" id="phone_number" />
+          <input
+            type="text"
+            class="form-control"
+            id="phone_number"
+            value="08033302330"
+          />
         </div>
         <div class="mb-3">
           <label for="amount" class="form-label">Amount</label>
@@ -62,6 +81,17 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
-    <script src="script.js" ype="text/javascript"></script>
+
+    <p>Kindly check your eligibility status</p>
+    <div class="section-buttons">
+      <a href="eligibility.html" type="submit" id="loan-eligibility"
+        ><span class="material-symbols-outlined">new_releases</span>Check Loan
+        Eligibility</a
+      >
+      <a href="loan-request.html" type="submit" id="loan-request"
+        ><span class="material-symbols-outlined">new_releases</span>Request a
+        Loan</a
+      >
+    </div>
   </body>
 </html>
