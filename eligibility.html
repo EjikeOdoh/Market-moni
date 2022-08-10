@@ -31,35 +31,37 @@
 
       <h1>Check Loan Eligibility</h1>
       <p>Kindly fill in your details to get started</p>
-      <form action="/FetchEligibility" method="post" name="newUserForm" id="eligibility-form">
+      <form
+        action="/FetchEligibility"
+        name="eligibilityForm"
+        id="eligibility-form"
+      >
         <div class="mb-3">
-            <label for="request_id" class="form-label">Request ID</label>
-            <input type="text" class="form-control" id="request_id" />
+          <label for="request_id" class="form-label">Request ID</label>
+          <input type="text" class="form-control" id="request_id" />
         </div>
         <div class="mb-3">
-            <label for="phone_number" class="form-label">Phone Number</label>
-            <input type="text" class="form-control" id="phone_number" />
+          <label for="phone_number" class="form-label">Phone Number</label>
+          <input type="text" class="form-control" id="phone_number" />
         </div>
 
         <div class="mb-3">
-            <label for="module_name" class="form-label">Module Name</label>
-            <input type="text" class="form-control" id="module_name" value="REM" />
+          <label for="module_name" class="form-label">Module Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="module_name"
+            value="REM"
+          />
         </div>
 
         <div class="mb-3">
-            <label for="created_date" class="form-label">Date Created</label>
-            <input type="text" class="form-control" id="created_date" />
+          <label for="created_date" class="form-label">Date Created</label>
+          <input type="text" class="form-control" id="created_date" />
         </div>
-        <button
-        type="submit"
-        onclick="handleFormSubmit()"
-        class="btn btn-primary"
-                 >
-                 Submit
-            </button>
-        </form>
-
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
-    <script src="sript.js"></script>
+    <script src="script.js" type="text/javascript"></script>
   </body>
 </html>
