@@ -7,6 +7,9 @@
     <title>API</title>
 
     <link rel="stylesheet" href="style/styles.css" />
+    <!-- font awesome link: v5 -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
     <!-- ICONS -->
     <link
       rel="stylesheet"
@@ -14,18 +17,32 @@
     />
   </head>
   <body>
-    <nav>
-      <img src="images/eNaira-logo.png" alt="logo" />
-      <div>
-        <a href="">Home</a>
-        <a href="">Branch Locator</a>
-        <a href="">Live Chat</a>
+
+  <header>
+    <nav class="nav">
+      <a href="/index.html" class="logo">
+        <img src="images/eNaira-logo.png" alt="logo" />
+      </a>
+
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+
+      <div class="nav__link hide">
+        <a href="#">Home</a>
+        <a href="#">Branch Locator</a>
+        <a href="#">Live Chat</a>
       </div>
     </nav>
+  </header>
+      
+  <section class="home"></section>
 
     <main>
       <div class="text-section">
-        <h1><span>Instant</span> <br />Personal Loan with E-Naira</h1>
+        <h1><span>Instant</span> <br>Personal Loan <br> with E-Naira</h1>
         <p>
           Get started in seconds, Grow Businesses and Finance Dreams With A
           Personal Or Business Loan. Apply Now
@@ -50,5 +67,26 @@
     <footer>
       <small>Copyright Market moni, 2022</small>
     </footer>
+
+
+
+    <script>
+      
+
+  var mainListDiv = document.getElementById("mobile-menu"),
+    mediaButton = document.getElementById("mobile-menu-button");
+
+mediaButton.onclick = function () {
+    
+    "use strict";
+    
+    mainListDiv.classList.toggle("show_list");
+    mediaButton.classList.toggle("active");
+    
+};
+    </script>
+
+
+    <script src="/index.js"></script>
   </body>
 </html>
