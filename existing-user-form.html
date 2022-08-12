@@ -16,6 +16,8 @@
     />
 
     <link rel="stylesheet" href="style/form.css" />
+ <!-- font awesome link: v5 -->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 
     <!-- ICONS -->
     <link
@@ -24,15 +26,26 @@
     />
   </head>
   <body>
-    <nav>
-      <img src="images/eNaira-logo.png" alt="logo" />
-      <div>
-        <a href="">Home</a>
-        <a href="">Branch Locator</a>
-        <a href="">Live Chat</a>
-      </div>
-    </nav>
-
+    <header>
+      <nav class="nav">
+        <a href="/index.html" class="logo">
+          <img src="images/eNaira-logo.png" alt="logo" />
+        </a>
+  
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+  
+        <div class="nav__link hide">
+          <a href="#">Home</a>
+          <a href="#">Branch Locator</a>
+          <a href="#">Live Chat</a>
+        </div>
+      </nav>
+    </header>
+    
     <div class="container">
       <a href="index.html"
         ><span class="material-symbols-outlined"> arrow_back </span> Back
@@ -93,5 +106,11 @@
         Loan</a
       >
     </div>
+
+
+
+
+
+    <script src="/index.js"></script>
   </body>
 </html>
